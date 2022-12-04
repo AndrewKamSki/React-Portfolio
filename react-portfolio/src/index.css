@@ -1,13 +1,73 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --bg-color: #2D283E;
+  --bg-variant-color: #564F6F;
+  --primary-color: #802BB1;
+  --primary-variant-color: #4C495D;
+  --white-color: #fff;
+  --light-color: #D1D7E0;
+
+  --transition: all 400ms ease;
+
+  --container-lg: 75%;
+  --container-md: 86%;
+  --container-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background: var(--bg-color);
+  color: var(--white-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: var(--container-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--light-color);
+}
+
+section > h2 {
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+a {
+  color: var(--primary-color);
+  transition: var(--transition);
 }
