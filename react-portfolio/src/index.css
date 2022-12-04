@@ -103,3 +103,23 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
