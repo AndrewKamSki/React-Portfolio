@@ -71,3 +71,35 @@ a {
   color: var(--primary-color);
   transition: var(--transition);
 }
+
+a:hover {
+  color: var(--white-color);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--primary-color);
+  padding: .75rem 1.2rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--white-color);
+  color: var(--bg-color);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--bg-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
