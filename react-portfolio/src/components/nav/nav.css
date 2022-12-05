@@ -1,0 +1,45 @@
+nav {
+    background: rgba(86,79,111,.25);
+    width: max-content;
+    display: flex;
+    padding: 1rem 1.75rem;
+    justify-content: space-between;
+    gap: .3rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5rem;
+    border-radius: 5rem;
+}
+
+nav a {
+    color: var(--light-color);
+    background: transparent;
+    padding: .5rem;
+    border-radius: 25%;
+    display: flex;
+    gap: .15rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background: var(--bg-color);
+    font-size:1.2rem;
+}
+
+nav a.select {
+    background: var(--bg-variant-color);
+}
+
+  
+@media screen and (max-width: 600px) {
+    nav {
+        bottom: 0;
+        border-radius: 3rem 3rem 0 0;
+        padding: 1.25rem 1.75rem .75rem 1.75rem;
+        width: min-content;
+    }
+}

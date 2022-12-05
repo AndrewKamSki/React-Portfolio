@@ -3,7 +3,7 @@ import './resume.css'
 
 const Resume = () => {
     return (
-        <div>Resume</div>
+        <section id='resume'>Resume</section>
     )
 };
 
