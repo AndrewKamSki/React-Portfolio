@@ -7,14 +7,14 @@ import { TiDocumentText } from 'react-icons/ti';
 import { RiContactsBookLine } from 'react-icons/ri';
 
 const Nav = () => {
-  const [navSelect, setNavSelect] = useState('#');
+  const [navSelect, setNavSelect] = useState('#about');
 
   return (
     <nav>
-      <a href='#' className={navSelect === '#' ? 'select' : ''} onClick={() => setNavSelect('#')}>
+      {/* <a href='#' className={navSelect === '#' ? 'select' : ''} onClick={() => setNavSelect('#')}>
         <FiHome />
         <h5>Home</h5>
-      </a>
+      </a> */}
       <a href='#about' className={navSelect === '#about' ? 'select' : ''} onClick={() => setNavSelect('#about')}>
         <BsInfoSquare />
         <h5>About</h5>

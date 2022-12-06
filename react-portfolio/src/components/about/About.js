@@ -1,9 +1,15 @@
 import React from 'react';
-import './about.css'
+import './about.css';
+import Profile from '../../assets/profile-pic.png';
+import SocialMediaIcons from './SocialMediaIcons';
 
 const About = () => {
   return (
     <section id='about'>
+      <div className='profile-pic'>
+        <img src={Profile} alt='profile picture of Andrew Kaminski' />
+      </div>
+      <SocialMediaIcons />
       <h2>About Me</h2>
       <div className='about-me-content'>
         <p>
