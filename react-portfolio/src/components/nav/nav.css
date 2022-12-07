@@ -35,11 +35,12 @@ nav a.select {
 }
 
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1175px) {
     nav {
-        top: 0;
-        border-radius: 0 0 3rem 3rem;
-        padding: .75rem 1.75rem 1.255rem 1.75rem;
+        top:auto;
+        bottom: 0;
+        border-radius: 3rem 3rem 0 0;
+        padding: 1.25rem 1.75rem .75rem 1.75rem;
         width: min-content;
     }
 }

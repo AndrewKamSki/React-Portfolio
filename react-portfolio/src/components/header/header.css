@@ -1,5 +1,5 @@
 header {
-    height: 25vh;
+    display: inline;
     padding-top: 3rem;
     overflow: hidden;
 }
@@ -10,7 +10,7 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin:auto;
+    margin-top: 3rem;
 }
 
 .links {
@@ -22,13 +22,17 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        padding-top: 2rem;
     }
 }
   
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        padding-top: 1rem;
+    }
+
+    .header-container {
+        justify-content: center;
     }
 
     .links {

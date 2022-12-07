@@ -15,7 +15,7 @@ const Nav = () => {
         <FiHome />
         <h5>Home</h5>
       </a> */}
-      <a href='#about' className={navSelect === '#about' ? 'select' : ''} onClick={() => setNavSelect('#about')}>
+      <a href='#about' className={navSelect === '#' ? 'select' : ''} onClick={() => setNavSelect('#about')}>
         <BsInfoSquare />
         <h5>About</h5>
       </a>

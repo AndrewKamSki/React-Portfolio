@@ -5,7 +5,7 @@ import SocialMediaIcons from './SocialMediaIcons';
 
 const About = () => {
   return (
-    <section id='about'>
+    <section>
       <h2>About Me</h2>
       <div className='container about-me-container'>
         <div className='about-me'>
