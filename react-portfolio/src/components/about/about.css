@@ -4,6 +4,12 @@ section {
     overflow: hidden;
 }
 
+.about-me-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    width: 100%;
+}
+
 .profile-pic {
     background: linear-gradient(var(--primary-color),var(--light-color));
     width: 18rem;
@@ -33,12 +39,25 @@ section {
     section {
         height: 68vh;
     }
+
+    .about-me-container {
+        display: inline;
+    }
 }
   
 @media screen and (max-width: 600px) {
     section {
         height: 100vh;
         padding-top: 2rem;
+    }
+
+    section > h2 {
+        margin-bottom: 0;
+    }
+
+    .profile-pic {
+        width: 9rem;
+        left: calc(50% - 4.5rem);
     }
 
     .about-me-content p {
