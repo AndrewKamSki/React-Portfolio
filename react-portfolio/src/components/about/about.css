@@ -4,13 +4,6 @@ section {
     overflow: hidden;
 }
 
-.links {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-}
-
 .profile-pic {
     background: linear-gradient(var(--primary-color),var(--light-color));
     width: 18rem;
@@ -46,15 +39,6 @@ section {
     section {
         height: 100vh;
         padding-top: 2rem;
-    }
-
-    .links {
-        flex-direction: column;
-        position: relative;
-    }
-
-    .links > a {
-        width: 100%;
     }
 
     .about-me-content p {

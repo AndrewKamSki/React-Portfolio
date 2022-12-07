@@ -6,11 +6,12 @@ import SocialMediaIcons from './SocialMediaIcons';
 const About = () => {
   return (
     <section id='about'>
+      <h2>About Me</h2>
       <div className='profile-pic'>
         <img src={Profile} alt='profile picture of Andrew Kaminski' />
       </div>
       <SocialMediaIcons />
-      <h2>About Me</h2>
+      
       <div className='about-me-content'>
         <p>
           I am a current enrollee in The Ohio State University's College of Engineering's Full-Stack Web 
