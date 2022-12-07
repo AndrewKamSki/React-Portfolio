@@ -5,7 +5,7 @@ import CoMTImg from '../../assets/Company-Management-Tracker.png';
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section>
       <h2>Portfolio</h2>
       <div className='container portfolio-container'>
         <article className='project-item'>

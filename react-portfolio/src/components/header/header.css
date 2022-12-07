@@ -1,7 +1,8 @@
 header {
-    display: inline;
+    display: block;
     padding-top: 3rem;
     overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 .header-container {

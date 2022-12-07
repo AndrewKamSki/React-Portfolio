@@ -1,5 +1,5 @@
 nav {
-    background: rgba(86,79,111,.25);
+    background: rgba(80, 70, 116, 0.863);
     width: max-content;
     display: flex;
     padding: 1rem 1.75rem;
@@ -10,6 +10,7 @@ nav {
     transform: translateX(-50%);
     top: 5rem;
     border-radius: 5rem;
+
 }
 
 nav a {
@@ -23,6 +24,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
+    
 }
 
 nav a:hover {

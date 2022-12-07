@@ -4,7 +4,7 @@ import Links from './Links';
 
 const Header = () => {
   return (
-    <header id='about'>
+    <header>
       <div className='container header-container'>
         <div className='text-container'>
           <h1>Andrew Kaminski</h1>

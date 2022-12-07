@@ -2,6 +2,7 @@ section {
     height: 100vh;
     padding-top: 2rem;
     overflow: hidden;
+    margin-bottom: 12rem;
 }
 
 .about-me-container {
@@ -32,7 +33,7 @@ section {
 
 .about-me-content p {
     margin: 1.5rem 5rem 0 5rem;
-    color: var(--light-color)
+    color: var(--light-color);
 }
 
 @media screen and (max-width: 1024px) {
@@ -52,7 +53,7 @@ section {
     }
 
     section > h2 {
-        margin-bottom: 0;
+        margin-bottom: 2rem;
     }
 
     .profile-pic {
