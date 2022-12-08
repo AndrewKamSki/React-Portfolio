@@ -4,7 +4,7 @@ import Resume from '../../assets/Resume.pdf';
 const Links = () => {
   return (
     <div className='links'>
-      <a href={Resume} download className='btn'>Download Resume</a>
+      <a href={Resume} download="Andrew-Kaminski-Resume" className='btn'>Download Resume</a>
       <a href='#contact' className='btn btn-primary'>Contact Me</a>
     </div>
   )

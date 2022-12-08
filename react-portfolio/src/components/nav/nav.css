@@ -10,7 +10,7 @@ nav {
     transform: translateX(-50%);
     top: 5rem;
     border-radius: 5rem;
-
+    z-index: 3;
 }
 
 nav a {

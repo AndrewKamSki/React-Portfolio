@@ -1,0 +1,33 @@
+section {
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+.resume-container {
+    margin-bottom: 5rem;
+}
+
+.resume-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
+.resume-container h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+li {
+    text-align: center;
+}
+
+.resume-container a {
+    align-items: center;
+}
+
+.resume-btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
