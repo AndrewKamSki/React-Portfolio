@@ -1,9 +1,34 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './contact.css';
 import { HiOutlineMail } from 'react-icons/hi';
 import emailjs from 'emailjs-com';
+import validator from 'validator';
+
 
 const Contact = () => {
+  const [message, setMessage] = useState("");
+  const validateEmail = (e) => {
+    let email = e.target.value;
+
+    if (validator.isEmail(email)) {
+      setMessage("");
+    } else {
+      setMessage("Please enter a valid email address")
+    }
+  }
+
+  const [textarea, setTextarea] = useState("");
+  const validateText = (e) => {
+    let text = e.target.value;
+
+    if (text) {
+      setTextarea("");
+    } else {
+      setTextarea("Please include a message")
+    }
+  }
+
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -27,9 +52,11 @@ const Contact = () => {
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="name" required />
-          <input type="email" name="email" placeholder="example@email.com" required />
-          <textarea name="message" rows="8" placeholder="message" required></textarea>
-          <button type='submit' className='btn btn-primary'>Send</button>        
+          <input type="email" name="email" placeholder="example@email.com" required onChange={(e) => validateEmail(e)}/>
+          <textarea name="message" rows="8" placeholder="message" required onMouseOut={(e) => validateText(e)}></textarea>
+          <button type='submit' className='btn btn-primary'>Send</button>   
+          {message}
+          {textarea}     
         </form>
       </div>
     </section>
