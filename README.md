@@ -5,7 +5,7 @@
 
 ## Description
 
-  This portfolio is made using React. It broadcasts my personal information, past projects, and my contact information. Vist the deployed site at:
+  This portfolio is made using React. It broadcasts my personal information, past projects, and my contact information. Vist the deployed site at: https://andrewkamski.github.io/React-Portfolio/
 
   ![Homepage-Screenshot](./src/assets/Homepage.png)
 
