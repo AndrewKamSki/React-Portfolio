@@ -5,7 +5,9 @@
 
 ## Description
 
-  This portfolio is made using React. It broadcasts my personal information, past projects, and my contact information. Vist the deployed site at: 
+  This portfolio is made using React. It broadcasts my personal information, past projects, and my contact information. Vist the deployed site at:
+
+  ![Homepage-Screenshot](./src/assets/Homepage.png)
 
   ## Table of Contents
 
@@ -17,7 +19,7 @@
 
   ## Installation
 
-  To install this project, download the files from my repository at https://github.com/AndrewKamSki/React-Portfolio. From there run an 'npm install' in the console     to load in the correct packages, then run a 'npm start' to start the application!
+  To install this project, download the files from my repository at https://github.com/AndrewKamSki/React-Portfolio. From there run an 'npm install' in the console to load in the correct packages, then run a 'npm start' to start the application!
 
   ## Contributing
 
