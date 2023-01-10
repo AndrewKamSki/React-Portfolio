@@ -1,7 +1,11 @@
 import React from 'react';
 import './portfolio.css'
-import SleeperImg from '../../assets/Sleeper-API-Image.png';
-import CoMTImg from '../../assets/Company-Management-Tracker.png';
+import SleeperImg from '../../assets/sleeper-logo.jpg';
+import CoMTImg from '../../assets/Company-Image.jpg';
+import HappyHourImg from '../../assets/happyhour.jpg';
+import PM from '../../assets/PM.jpeg';
+import Backend from '../../assets/backend.png';
+import SocialNetwork from '../../assets/shortstack-blog-best-social-networks.jpg';
 
 const Portfolio = () => {
   return (
@@ -10,7 +14,7 @@ const Portfolio = () => {
       <div className='container portfolio-container'>
         <article className='project-item'>
           <div className='project-image'>
-            <img src='https://raw.githubusercontent.com/AndrewKamSki/Weather-Dashboard-App/main/assets/Weather-Dashboard.png' alt=''/>
+            <img src={PM} alt=''/>
           </div>
           <h3>Planit</h3>
           <div className='btns'>
@@ -20,7 +24,7 @@ const Portfolio = () => {
         </article>
         <article className='project-item'>
           <div className='project-image'>
-            <img src='https://raw.githubusercontent.com/clbutl/happy-hour-log/main/public/readmeImages/profile-with-post.png' alt=''/>
+            <img src={HappyHourImg} alt=''/>
           </div>
           <h3>Happy Hour Log</h3>
           <div className='btns'>
@@ -40,7 +44,7 @@ const Portfolio = () => {
         </article>
         <article className='project-item'>
           <div className='project-image'>
-            <img src='https://raw.githubusercontent.com/AndrewKamSki/E-commerce-Backend-API/main/Images/Insomnia-findall.png' alt=''/>
+            <img src={Backend} alt=''/>
           </div>
           <h3>E-commerce Backend API</h3>
           <div className='btns'>
@@ -60,7 +64,7 @@ const Portfolio = () => {
         </article>
         <article className='project-item'>
           <div className='project-image'>
-            <img src='https://raw.githubusercontent.com/AndrewKamSki/Social-Network-API/main/assets/Insomnia-AllThoughts.png' alt=''/>
+            <img src={SocialNetwork} alt=''/>
           </div>
           <h3>Social Network API</h3>
           <div className='btns'>
