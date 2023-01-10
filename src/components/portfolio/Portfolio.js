@@ -10,12 +10,22 @@ const Portfolio = () => {
       <div className='container portfolio-container'>
         <article className='project-item'>
           <div className='project-image'>
+            <img src='https://raw.githubusercontent.com/AndrewKamSki/Weather-Dashboard-App/main/assets/Weather-Dashboard.png' alt=''/>
+          </div>
+          <h3>Planit</h3>
+          <div className='btns'>
+            <a href='https://github.com/Edna1999/planit' className='btn btn-primary'target='_blank'>Repo Link</a>
+            <a href='https://planit.herokuapp.com/' className='btn btn-primary' target='_blank'>Deployed App Link</a>
+          </div>
+        </article>
+        <article className='project-item'>
+          <div className='project-image'>
             <img src='https://raw.githubusercontent.com/clbutl/happy-hour-log/main/public/readmeImages/profile-with-post.png' alt=''/>
           </div>
           <h3>Happy Hour Log</h3>
           <div className='btns'>
             <a href='https://github.com/clbutl/happy-hour-log' className='btn btn-primary'target='_blank'>Repo Link</a>
-            <a href='https://github.com/' className='btn btn-primary' target='_blank'>Deployed App Link</a>
+            <a href='https://happyhourlog.herokuapp.com/' className='btn btn-primary' target='_blank'>Deployed App Link</a>
           </div>
         </article>
         <article className='project-item'>
@@ -56,16 +66,6 @@ const Portfolio = () => {
           <div className='btns'>
             <a href='https://github.com/AndrewKamSki/Social-Network-API' className='btn btn-primary'target='_blank'>Repo Link</a>
             <a href='https://drive.google.com/file/d/1j2vUgOhLnZ9mFWTZqNWoqgppZh_6Dly4/view' className='btn btn-primary' target='_blank'>Video Walkthrough</a>
-          </div>
-        </article>
-        <article className='project-item'>
-          <div className='project-image'>
-            <img src='https://raw.githubusercontent.com/AndrewKamSki/Weather-Dashboard-App/main/assets/Weather-Dashboard.png' alt=''/>
-          </div>
-          <h3>Weather Dashboard</h3>
-          <div className='btns'>
-            <a href='https://github.com/AndrewKamSki/Weather-Dashboard-App' className='btn btn-primary'target='_blank'>Repo Link</a>
-            <a href='https://andrewkamski.github.io/Weather-Dashboard-App/' className='btn btn-primary' target='_blank'>Deployed App Link</a>
           </div>
         </article>
       </div>
