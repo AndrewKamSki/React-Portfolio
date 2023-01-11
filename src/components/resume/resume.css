@@ -9,17 +9,22 @@ section {
 
 .resume-container ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     margin-bottom: 3rem;
 }
 
 .resume-container h3 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
+}
+
+ul {
+    margin-top: 2rem;
 }
 
 li {
     text-align: center;
+    margin-top: 1.5rem;
 }
 
 .resume-container a {
@@ -30,4 +35,16 @@ li {
     display: flex;
     position: relative;
     justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .resume-container ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .resume-container ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
