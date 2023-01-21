@@ -27,6 +27,14 @@ const About = () => {
             I aim to start my career while continuing my education and personal developement as a developer.
           </p>
           <p>
+            I am currenlty working as a project manager at Sycamore Growth Group. Over the past two years I have successfully led 
+            efforts to increase revenue by 100% through strategic planning, effective resource allocation, and strong leadership 
+            of cross-functional teams. I also implemented a PTO (paid time off) calendar and tracking system, streamlining the process 
+            for employees to request and track time off, and for managers to approve and manage requests. This included researching 
+            and selecting a suitable software, creating and communicating guidelines and procedures, and providing training and 
+            support for all stakeholders.
+          </p>
+          <p>
             Aside from work I am typically playing with my two cats Crush and Oli, playing in 
             intramural lacrosse games, and spending time with friends and family.
           </p>
