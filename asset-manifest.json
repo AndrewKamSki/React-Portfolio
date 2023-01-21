@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.cd06396b.css",
-    "main.js": "/React-Portfolio/static/js/main.a3ee7741.js",
+    "main.js": "/React-Portfolio/static/js/main.5f1aeb73.js",
     "static/media/backend.png": "/React-Portfolio/static/media/backend.2cd1e92ec1fe0fa079e9.png",
     "static/media/profile-pic.png": "/React-Portfolio/static/media/profile-pic.f116269e448ce29da827.png",
-    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.f8759e1aff8598ac1584.pdf",
+    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.26f2dede35e5679883b3.pdf",
     "static/media/PM.jpeg": "/React-Portfolio/static/media/PM.cb4b6677daf3f68ec42f.jpeg",
     "static/media/Company-Image.jpg": "/React-Portfolio/static/media/Company-Image.fd40b4f3a7a56b8f77d4.jpg",
     "static/media/shortstack-blog-best-social-networks.jpg": "/React-Portfolio/static/media/shortstack-blog-best-social-networks.4906a4e5ab094e314448.jpg",
@@ -12,10 +12,10 @@
     "static/media/sleeper-logo.jpg": "/React-Portfolio/static/media/sleeper-logo.959b9c67e09300688127.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.cd06396b.css.map": "/React-Portfolio/static/css/main.cd06396b.css.map",
-    "main.a3ee7741.js.map": "/React-Portfolio/static/js/main.a3ee7741.js.map"
+    "main.5f1aeb73.js.map": "/React-Portfolio/static/js/main.5f1aeb73.js.map"
   },
   "entrypoints": [
     "static/css/main.cd06396b.css",
-    "static/js/main.a3ee7741.js"
+    "static/js/main.5f1aeb73.js"
   ]
 }
