@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 import ResumePdf from '../../assets/Resume.pdf';
 import {IconContext} from 'react-icons';
-import { SiJavascript, SiHtml5, SiCss3, SiSlack, SiHandlebarsdotjs, SiHeroku, SiBootstrap, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiGit, SiGithub, SiSequelize, SiNpm, SiJquery, SiJest, SiVisualstudio } from 'react-icons/si';
+import { SiJavascript, SiHtml5, SiCss3, SiSlack, SiHandlebarsdotjs, SiHeroku, SiBootstrap, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiGit, SiGithub, SiSequelize, SiNpm, SiJquery, SiJest, SiVisualstudio, SiPython } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import { FiMail } from 'react-icons/fi';
 
@@ -45,6 +45,16 @@ const Resume = () => {
               </IconContext.Provider>
             </div>
             <p>CSS3</p>
+          </li>
+          <li>
+            <div className='skill-icon'>
+              <IconContext.Provider value={{ className: 'shared-class', size: 32 }}>
+                <>
+                  <SiPython />
+                </>
+              </IconContext.Provider>
+            </div>
+            <p>Python</p>
           </li>
           <li>
             <div className='skill-icon'>
@@ -195,16 +205,6 @@ const Resume = () => {
               </IconContext.Provider>
             </div>
             <p>Slack</p>
-          </li>
-          <li>
-            <div className='skill-icon'>
-              <IconContext.Provider value={{ className: 'shared-class', size: 32 }}>
-                <>
-                  <FiMail />
-                </>
-              </IconContext.Provider>
-            </div>
-            <p>Nodemailer</p>
           </li>
           <li>
             <div className='skill-icon'>
